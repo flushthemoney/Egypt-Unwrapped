@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=IM+Fell+English:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Forum", sans-serif;
+}
+
+main {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 15%;
+  align-items: center;
+  overflow: hidden;
+  background: radial-gradient(
+    circle at 0 50%,
+    rgba(122, 71, 0, 1) 0%,
+    rgba(84, 49, 0, 1) 25%,
+    rgba(0, 0, 0, 1) 94%
+  );
+}
+
+#pharaoh {
+  width: 60vh;
+  @import url("https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&display=swap");
+  left: 13%;
+  position: absolute;
+  z-index: 2;
+  top: 10vh;
+}
+
+#circle {
+  width: 70vh;
+  position: absolute;
+  left: 11%;
+  z-index: 1;
+  top: 17.2vh;
+}
+
+h1 {
+  font-size: 8rem;
+  color: #ff9500;
+  font-weight: 500;
+}
+
+.maintext {
+  align-self: flex-end;
+}
+
+header {
+  width: 100%;
+}
+header ul {
+  display: flex;
+  justify-content: center;
+}
+
+header ul li {
+  display: inline;
+  font-size: 2rem;
+  padding: 30px;
+  color: lightgrey;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  font-size: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  color: lightgrey;
+  margin-bottom: 1rem;
+}
+
+.social-icons img {
+  width: 2rem;
+}
